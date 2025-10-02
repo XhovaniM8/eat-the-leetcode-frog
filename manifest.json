@@ -1,8 +1,10 @@
-{
+}{
   "manifest_version": 2,
-  "name": "Eat The Leetcode Frog",
-  "version": "1.0",
-  "description": "Forces you to complete one LeetCode problem daily before browsing",
+  "name": "Daily LeetCode Enforcer",
+  "version": "1.0.0",
+  "description": "Stay disciplined! Complete one LeetCode problem daily before browsing. Features NeetCode 150 problems ordered by difficulty.",
+  "author": "Xhovani Mali",
+  "homepage_url": "https://github.com/XhovaniM8/eat-the-leetcode-frog",
   
   "permissions": [
     "storage",
@@ -18,7 +20,14 @@
   
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon": "icon.png"
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  
+  "icons": {
+    "48": "icon.png",
+    "96": "icon.png"
   },
   
   "web_accessible_resources": [
