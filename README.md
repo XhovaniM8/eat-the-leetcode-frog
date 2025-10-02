@@ -1,4 +1,4 @@
-# Daily LeetCode Enforcer
+# Daily SWE Problem Enforcer
 
 A Firefox extension that keeps you disciplined by blocking all websites until you complete one LeetCode problem per day.
 
@@ -21,5 +21,3 @@ A Firefox extension that keeps you disciplined by blocking all websites until yo
 3. Click "Load Temporary Add-on"
 4. Select `manifest.json`
 
-## Development
-```bash
