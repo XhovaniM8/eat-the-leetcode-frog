@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 350px;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .status {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+    .complete {
+      background: #d4edda;
+      color: #155724;
+    }
+    .incomplete {
+      background: #f8d7da;
+      color: #721c24;
+    }
+    .problem {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .primary {
+      background: #007bff;
+      color: white;
+    }
+    .success {
+      background: #28a745;
+      color: white;
+    }
+    .warning {
+      background: #ffc107;
+      color: #000;
+    }
+    .timer {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 15px 0;
+      color: #dc3545;
+    }
+    h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="status"></div>
+  <div id="problem"></div>
+  <div id="timer"></div>
+  <div id="actions"></div>
+  
+  <button class="warning" id="resetProgress" style="margin-top: 20px;">Reset All Progress</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
